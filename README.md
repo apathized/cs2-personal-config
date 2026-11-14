@@ -26,8 +26,8 @@ ENABLE_LAYER_MESA_ANTI_LAG=1 %command% +exec autoexec -fullscreen -novid -nojoy
 | `ENABLE_LAYER_MESA_ANTI_LAG=1` | AMD + Mesa anti-lag Vulkan layer. Env var, so it has to go **before** `%command%` |
 | `+exec autoexec` | Runs `autoexec.cfg` on launch |
 | `-fullscreen` | Exclusive fullscreen, overrides the in-game borderless setting |
-| `-novid` | Skip intro video (no-op in CS2, harmless) |
-| `-nojoy` | Disable controller support (no-op in CS2, harmless) |
+| `-novid` | Skip intro video. No-op in CS2, kept from my CS:GO days |
+| `-nojoy` | Disable controller support. No-op in CS2, kept from my CS:GO days |
 
 ## Video settings
 
