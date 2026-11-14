@@ -1,0 +1,4 @@
+# only track my own config, ignore Valve's stock cfgs
+*
+!.gitignore
+!autoexec.cfg
